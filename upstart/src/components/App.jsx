@@ -1,10 +1,12 @@
 import React from "react";
+import Header from "./common/Header.jsx";
+import Front from "./frontPage/Front.jsx";
 
 function App(){
   return (
     <div>
-      <h1>Hello</h1>
-
+     <Header />
+     <Front />
     </div>
   )
 }
